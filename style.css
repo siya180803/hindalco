@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #F8F4E1;
+    color: #54391c;
+}
+
+header nav{
+background-color: #D8AE7E;
+padding: 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1;
+
+
+}
+header nav h1{
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    display: flex;
+    margin-left: 500px;
+}
+
+header nav form{
+    display: flex;
+    justify-content: center;
+}
+
+form input[type="text"]{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+@media screen and
+(max-width:600px){
+    header nav{
+        flex-direction:'column';
+    }
+    header nav form{
+        width: 80%;
+        margin-bottom: px;
+    }
+    
+}
+form input {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform:lowercase;
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 15px;
+    background-color:cornsilk;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-right: 15px;
+    margin-left: 380px;
+    width: 600px;
+    
+
+}
+button{
+    font-size: 20px;
+    font-weight: 150;
+    letter-spacing: 1px;
+    text-transform:none;
+    display: flex;
+    padding: 9px;
+    border-radius: 20px;
+    border-color: rgb(222, 192, 114);
+    background-color: rgb(161, 170, 55);
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+    }
+    h1{
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        display: flex;
+        text-align: center;
+
+    }
+    section{
+        text-align: center;
+        margin-top: 20px;
+    }
+   
+
+
